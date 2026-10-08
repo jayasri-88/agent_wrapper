@@ -9,7 +9,7 @@ import requests
 
 NOTES_FILE = Path("notes.json")
 
-# ---------- Tool 1: Safe calculator ----------
+# tool1:caluclator
 _OPS = {
     ast.Add: operator.add, ast.Sub: operator.sub,
     ast.Mult: operator.mul, ast.Div: operator.truediv,
@@ -37,7 +37,7 @@ def calculator(expression: str) -> str:
     except Exception as e:
         return f"Calculator error: {e}"
 
-# ---------- Tool 2: Wikipedia ----------
+# tool2:wikipedia
 def wikipedia_search(topic: str) -> str:
     """Look up a factual summary of a topic from Wikipedia.
     Use for definitions, history, science and general knowledge."""
@@ -61,7 +61,7 @@ def wikipedia_search(topic: str) -> str:
     except Exception as e:
         return f"Wikipedia error: {e}"
 
-# ---------- Tool 3: Time ----------
+# tool3:time
 def get_current_time() -> str:
     """Get the current date and time on the server."""
     return datetime.now().strftime("%A, %d %B %Y, %I:%M %p")
