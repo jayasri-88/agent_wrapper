@@ -84,4 +84,3 @@ Response:
 
 - Each unique `session_id` maintains its own conversation memory.
 - Notes are persisted to `notes.json` in the project root.
-- Never commit your `.env` file — it's listed in `.gitignore`.
