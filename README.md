@@ -45,7 +45,7 @@ studymate-agent/
    Create a `.env` file in the project root:
    ```
    GEMINI_API_KEY=your_api_key_here
-   GEMINI_MODEL=gemini-2.5-flash-preview-05-20
+   GEMINI_MODEL=gemini-3.8-flash
    ```
    Get your API key from [Google AI Studio](https://aistudio.google.com/).
 
